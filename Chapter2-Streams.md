@@ -1,7 +1,7 @@
 
 [](2017-06-11)
 
-#I/O Streams
+# I/O Streams
 * Java I/O (*Input* and _Output_) is used to process the input and produce the output.
 * Java uses the concept of stream to make I/O operation fast.
 * The `java.io` package contains all the classes required for input and output operations.

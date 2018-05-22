@@ -4,8 +4,8 @@ author: vinay bommana
 year : 2017
 
 ---
-#Classes and Interfaces
-##Inheritance##
+# Classes and Interfaces
+## Inheritance
 * Inheritance is a mechanism in which one object acquires all/ some of the properties and behaviours of **parent** object.
 * Object - oriented programming allows classes to _inherit_ commonly used state and behaviour from other classes.
 * In Java, each class is allowed to to have one direct `super` class,\
@@ -18,7 +18,7 @@ year : 2017
 * The class from which the properties are inherited is called `super class`.
 * The class which inherits its properties is called `sub class`.
 
-##super keyword
+## super keyword
 * Uses
     - `super` is used to refer immediate `Super` class instance variable.
     - super is used to invoke immediate `Super` class method.
@@ -224,18 +224,19 @@ In the implementation we use\
 
 
 
-##Event Handling
+## Event Handling
 Event handling is the mechanism which controls the events and decides what should happen if an event occurs. This mechanism has the code which is known as `Event Handler` and that gets executed when an event occurs. Java uses the `Delegation Event Model` to handle the events. This model defines the standard mechanism to generate and handle the events.
 
 * Any program that uses GUI (graphical user interface) such as Java application written for windows is event driven.\
 * Event describes the change of state of any object.\
 * **Example**: Pressing a button, Entering a character in Textbox
 
-####Reacting to an Event
+#### Reacting to an Event
 * When an event is detected, a method is invoked. The invoked method is called `Call-Back Method`.\
 * This Style of programming is called EventDriven Programming.
 
-####Handling events
+
+#### Handling events
 * A source generates an Event and send it to one or more listeners registered with the source.\
 * Once event is received by the listener, they process the event and then return.\
 * Events are supported by a number of java packages\
@@ -251,7 +252,7 @@ The Event handling involves four types of classes:\
 2. `Event Adapters.`\
 
 
-####Example of Event Handling
+#### Example of Event Handling
 $~$
 ```java
 import java.awt.*;
@@ -351,7 +352,7 @@ For registering the component with Listener, many classes provide the registrati
      `public void addItemListener(ItemListener a){}`\
 
 
-####Event Handling Codes.\
+#### Event Handling Codes.\
 
 We can put event handling code into one of the following places:\
 
@@ -361,7 +362,7 @@ We can put event handling code into one of the following places:\
 
 -----
 
-###Factory methods
+### Factory methods
 
 Factory methods are static methods that return an instance of the native class.
 
@@ -421,5 +422,5 @@ public class Coordinate {
 
 ----
 
-##Builder Patterns in java
+## Builder Patterns in java
 
